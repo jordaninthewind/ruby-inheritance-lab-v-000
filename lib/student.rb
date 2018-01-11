@@ -10,6 +10,6 @@ attr_reader :knowledge
   end
 
   def learn(knowhow)
-    @knowledge << knowhow
+    self.knowledge << knowhow
   end
 end
