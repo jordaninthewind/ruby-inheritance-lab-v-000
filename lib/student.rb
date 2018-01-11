@@ -8,4 +8,5 @@ attr_reader :knowledge
   def learn(knowhow)
     self.knowledge << knowhow
   end
+  
 end
