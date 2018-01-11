@@ -11,4 +11,5 @@ attr_reader :knowledge
 
   def learn
     self.knowledge << teacher.teach
+  end
 end
